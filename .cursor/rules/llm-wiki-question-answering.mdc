@@ -1,0 +1,16 @@
+---
+description: How to answer user questions using the wiki knowledge base
+alwaysApply: false
+---
+
+# Question answering
+
+When user asks a question:
+
+1. Read `wiki/index.md` first to find relevant pages
+2. Read those pages and synthesize answer
+3. Cite specific wiki pages in response
+4. Answer not in wiki → say so clearly
+5. Valuable answer → offer to save as new wiki page
+
+Good answers filed back into wiki so they compound over time.

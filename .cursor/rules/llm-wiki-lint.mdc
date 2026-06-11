@@ -1,0 +1,15 @@
+---
+description: Wiki audit and lint workflow when user asks to lint or audit the wiki
+alwaysApply: false
+---
+
+# Lint
+
+When user asks to lint or audit wiki:
+
+- Check contradictions between pages
+- Find orphan pages (no inbound links)
+- Identify concepts mentioned without own page
+- Flag claims outdated based on newer sources
+- Check all pages follow page format
+- Report findings as numbered list with suggested fixes

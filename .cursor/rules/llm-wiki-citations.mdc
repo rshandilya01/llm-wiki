@@ -1,0 +1,12 @@
+---
+description: Citation and sourcing rules for wiki content
+globs: wiki/**/*.md
+alwaysApply: false
+---
+
+# Citation rules
+
+- Every factual claim references its source file
+- Format: `(source: filename.pdf)` after the claim
+- Two sources disagree → note contradiction explicitly
+- Claim has no source → mark as needing verification

@@ -1,0 +1,29 @@
+---
+description: LLM Wiki project overview, folder structure, and global constraints
+alwaysApply: true
+---
+
+# LLM Wiki
+
+Personal knowledge base. Karpathy LLM Wiki pattern.
+
+## Purpose
+
+Structured, interlinked wiki for planning trip to Japan. Agent maintains wiki. Human curates sources, asks questions, guides analysis.
+
+## Folder structure
+
+```
+raw/           -- source documents (immutable — never modify)
+wiki/          -- markdown pages maintained by agent
+wiki/index.md  -- table of contents for entire wiki
+wiki/log.md    -- append-only record of all operations
+```
+
+## Global rules
+
+- Never modify anything in `raw/`
+- Always update `wiki/index.md` and `wiki/log.md` after changes
+- Page names lowercase with hyphens (e.g. `machine-learning.md`)
+- Write in clear, plain language
+- When uncertain how to categorize something, ask the user

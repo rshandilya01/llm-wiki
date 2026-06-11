@@ -1,0 +1,18 @@
+---
+description: Ingest workflow when user adds a new source to raw/ and asks to ingest it
+alwaysApply: false
+---
+
+# Ingest workflow
+
+When user adds source to `raw/` and asks to ingest:
+
+1. Read full source document
+2. Discuss key takeaways with user before writing anything
+3. Create summary page in `wiki/` named after source
+4. Create or update concept pages for each major idea or entity
+5. Add wiki-links (`[[page-name]]`) to connect related pages
+6. Update `wiki/index.md` with new pages and one-line descriptions
+7. Append entry to `wiki/log.md` with date, source name, and what changed
+
+Single source may touch 10–15 wiki pages. Normal.
